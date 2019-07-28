@@ -1,0 +1,11 @@
+﻿  main.cpp
+C:\Users\chety\source\repos\nn\nn\main.cpp(41,46): warning C4100:  'inputvals': unreferenced formal parameter
+C:\Users\chety\source\repos\nn\nn\main.cpp(42,43): warning C4100:  'targetvals': unreferenced formal parameter
+C:\Users\chety\source\repos\nn\nn\main.cpp(43,39): warning C4100:  'resultsvals': unreferenced formal parameter
+C:\Users\chety\source\repos\nn\nn\main.cpp(50,39): warning C4267:  'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+  Generating code
+  1 of 173 functions ( 0.6%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  nn.vcxproj -> C:\Users\chety\source\repos\nn\x64\Release\nn.exe
