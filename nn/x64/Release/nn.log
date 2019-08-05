@@ -1,11 +1,177 @@
 ﻿  main.cpp
-C:\Users\chety\source\repos\nn\nn\main.cpp(41,46): warning C4100:  'inputvals': unreferenced formal parameter
-C:\Users\chety\source\repos\nn\nn\main.cpp(42,43): warning C4100:  'targetvals': unreferenced formal parameter
-C:\Users\chety\source\repos\nn\nn\main.cpp(43,39): warning C4100:  'resultsvals': unreferenced formal parameter
-C:\Users\chety\source\repos\nn\nn\main.cpp(50,39): warning C4267:  'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
-  Generating code
-  1 of 173 functions ( 0.6%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
-  Finished generating code
-  nn.vcxproj -> C:\Users\chety\source\repos\nn\x64\Release\nn.exe
+C:\Users\chety\source\repos\nn\nn\main.cpp(21,21): error C2065:  'Neuron': undeclared identifier
+C:\Users\chety\source\repos\nn\nn\main.cpp(21,27): error C2923:  'std::vector': 'Neuron' is not a valid template type argument for parameter '_Ty'
+C:\Users\chety\source\repos\nn\nn\main.cpp(21,27): error C2903:  'allocator': symbol is neither a class template nor a function template
+C:\Users\chety\source\repos\nn\nn\main.cpp(21,27): error C3203:  'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
+C:\Users\chety\source\repos\nn\nn\main.cpp(21,29): error C2923:  'std::vector': 'Neuron' is not a valid template type argument for parameter '_Ty'
+C:\Users\chety\source\repos\nn\nn\main.cpp(21,29): error C2903:  'allocator': symbol is neither a class template nor a function template
+C:\Users\chety\source\repos\nn\nn\main.cpp(21,29): error C3203:  'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
+C:\Users\chety\source\repos\nn\nn\main.cpp(21,29): error C2641:  cannot deduce template arguments for 'std::vector'
+C:\Users\chety\source\repos\nn\nn\main.cpp(27,41): error C2955:  'std::vector': use of class template requires template argument list
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(339): message :  see declaration of 'std::vector'
+C:\Users\chety\source\repos\nn\nn\main.cpp(27,32): error C2955:  'std::vector': use of class template requires template argument list
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(339): message :  see declaration of 'std::vector'
+C:\Users\chety\source\repos\nn\nn\main.cpp(27,42): error C2955:  'std::vector': use of class template requires template argument list
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(339): message :  see declaration of 'std::vector'
+C:\Users\chety\source\repos\nn\nn\main.cpp(31,49): error C2955:  'std::vector': use of class template requires template argument list
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(339): message :  see declaration of 'std::vector'
+C:\Users\chety\source\repos\nn\nn\main.cpp(31,40): error C2955:  'std::vector': use of class template requires template argument list
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(339): message :  see declaration of 'std::vector'
+C:\Users\chety\source\repos\nn\nn\main.cpp(31,50): error C2955:  'std::vector': use of class template requires template argument list
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(339): message :  see declaration of 'std::vector'
+C:\Users\chety\source\repos\nn\nn\main.cpp(32,41): error C2955:  'std::vector': use of class template requires template argument list
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(339): message :  see declaration of 'std::vector'
+C:\Users\chety\source\repos\nn\nn\main.cpp(32,32): error C2955:  'std::vector': use of class template requires template argument list
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(339): message :  see declaration of 'std::vector'
+C:\Users\chety\source\repos\nn\nn\main.cpp(32,42): error C2955:  'std::vector': use of class template requires template argument list
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(339): message :  see declaration of 'std::vector'
+C:\Users\chety\source\repos\nn\nn\main.cpp(41,38): error C2955:  'std::vector': use of class template requires template argument list
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(339): message :  see declaration of 'std::vector'
+C:\Users\chety\source\repos\nn\nn\main.cpp(41,29): error C2955:  'std::vector': use of class template requires template argument list
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(339): message :  see declaration of 'std::vector'
+C:\Users\chety\source\repos\nn\nn\main.cpp(41,45): error C2955:  'std::vector': use of class template requires template argument list
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(339): message :  see declaration of 'std::vector'
+C:\Users\chety\source\repos\nn\nn\main.cpp(51,48): error C2955:  'std::vector': use of class template requires template argument list
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(339): message :  see declaration of 'std::vector'
+C:\Users\chety\source\repos\nn\nn\main.cpp(51,39): error C2955:  'std::vector': use of class template requires template argument list
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(339): message :  see declaration of 'std::vector'
+C:\Users\chety\source\repos\nn\nn\main.cpp(52,1): error C2955:  'std::vector': use of class template requires template argument list
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(339): message :  see declaration of 'std::vector'
+C:\Users\chety\source\repos\nn\nn\main.cpp(54,42): error C2662:  'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'Layer' to 'const std::vector<_Ty,_Alloc> &'
+C:\Users\chety\source\repos\nn\nn\main.cpp(54,42): message :  Reason: cannot convert from 'Layer' to 'const std::vector<_Ty,_Alloc>'
+C:\Users\chety\source\repos\nn\nn\main.cpp(54,27): message :  Conversion requires a second user-defined-conversion operator or constructor
+C:\Users\chety\source\repos\nn\nn\main.cpp(56,31): error C2678:  binary '[': no operator found which takes a left-hand operand of type 'Layer' (or there is no acceptable conversion)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(1475,27): message :  could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) const'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(1465,21): message :  or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type)'
+C:\Users\chety\source\repos\nn\nn\main.cpp(56,31): message :  while trying to match the argument list '(Layer, unsigned int)'
+C:\Users\chety\source\repos\nn\nn\main.cpp(56,18): error C2530:  'neuron': references must be initialized
+C:\Users\chety\source\repos\nn\nn\main.cpp(72,45): error C2955:  'std::vector': use of class template requires template argument list
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(339): message :  see declaration of 'std::vector'
+C:\Users\chety\source\repos\nn\nn\main.cpp(72,36): error C2955:  'std::vector': use of class template requires template argument list
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(339): message :  see declaration of 'std::vector'
+C:\Users\chety\source\repos\nn\nn\main.cpp(73,1): error C2955:  'std::vector': use of class template requires template argument list
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(339): message :  see declaration of 'std::vector'
+C:\Users\chety\source\repos\nn\nn\main.cpp(75,42): error C2662:  'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'const Layer' to 'const std::vector<_Ty,_Alloc> &'
+C:\Users\chety\source\repos\nn\nn\main.cpp(75,42): message :  Reason: cannot convert from 'const Layer' to 'const std::vector<_Ty,_Alloc>'
+C:\Users\chety\source\repos\nn\nn\main.cpp(75,27): message :  Conversion requires a second user-defined-conversion operator or constructor
+C:\Users\chety\source\repos\nn\nn\main.cpp(77,48): error C2678:  binary '[': no operator found which takes a left-hand operand of type 'const Layer' (or there is no acceptable conversion)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(1475,27): message :  could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) const'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(1465,21): message :  or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type)'
+C:\Users\chety\source\repos\nn\nn\main.cpp(77,48): message :  while trying to match the argument list '(const Layer, unsigned int)'
+C:\Users\chety\source\repos\nn\nn\main.cpp(83,56): error C2955:  'std::vector': use of class template requires template argument list
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(339): message :  see declaration of 'std::vector'
+C:\Users\chety\source\repos\nn\nn\main.cpp(83,47): error C2955:  'std::vector': use of class template requires template argument list
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(339): message :  see declaration of 'std::vector'
+C:\Users\chety\source\repos\nn\nn\main.cpp(84,1): error C2955:  'std::vector': use of class template requires template argument list
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(339): message :  see declaration of 'std::vector'
+C:\Users\chety\source\repos\nn\nn\main.cpp(110,48): error C2955:  'std::vector': use of class template requires template argument list
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(339): message :  see declaration of 'std::vector'
+C:\Users\chety\source\repos\nn\nn\main.cpp(110,39): error C2955:  'std::vector': use of class template requires template argument list
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(339): message :  see declaration of 'std::vector'
+C:\Users\chety\source\repos\nn\nn\main.cpp(111,1): error C2955:  'std::vector': use of class template requires template argument list
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(339): message :  see declaration of 'std::vector'
+C:\Users\chety\source\repos\nn\nn\main.cpp(155,19): error C3203:  'vector': unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
+C:\Users\chety\source\repos\nn\nn\main.cpp(166,41): error C2109:  subscript requires array or pointer type
+C:\Users\chety\source\repos\nn\nn\main.cpp(177,23): error C2955:  'std::vector': use of class template requires template argument list
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(339): message :  see declaration of 'std::vector'
+C:\Users\chety\source\repos\nn\nn\main.cpp(177,37): error C2440:  'initializing': cannot convert from '_Ty' to 'Layer &'
+C:\Users\chety\source\repos\nn\nn\main.cpp(177,37): error C2440:         with
+C:\Users\chety\source\repos\nn\nn\main.cpp(177,37): error C2440:         [
+C:\Users\chety\source\repos\nn\nn\main.cpp(177,37): error C2440:             _Ty=int
+C:\Users\chety\source\repos\nn\nn\main.cpp(177,37): error C2440:         ]
+C:\Users\chety\source\repos\nn\nn\main.cpp(179,44): error C2662:  'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'Layer' to 'const std::vector<_Ty,_Alloc> &'
+C:\Users\chety\source\repos\nn\nn\main.cpp(179,44): message :  Reason: cannot convert from 'Layer' to 'const std::vector<_Ty,_Alloc>'
+C:\Users\chety\source\repos\nn\nn\main.cpp(179,27): message :  Conversion requires a second user-defined-conversion operator or constructor
+C:\Users\chety\source\repos\nn\nn\main.cpp(181,47): error C2678:  binary '[': no operator found which takes a left-hand operand of type 'Layer' (or there is no acceptable conversion)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(1475,27): message :  could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) const'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(1465,21): message :  or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type)'
+C:\Users\chety\source\repos\nn\nn\main.cpp(181,47): message :  while trying to match the argument list '(Layer, unsigned int)'
+C:\Users\chety\source\repos\nn\nn\main.cpp(185,30): error C2662:  'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'Layer' to 'const std::vector<_Ty,_Alloc> &'
+C:\Users\chety\source\repos\nn\nn\main.cpp(185,30): message :  Reason: cannot convert from 'Layer' to 'const std::vector<_Ty,_Alloc>'
+C:\Users\chety\source\repos\nn\nn\main.cpp(185,13): message :  Conversion requires a second user-defined-conversion operator or constructor
+C:\Users\chety\source\repos\nn\nn\main.cpp(189,44): error C2662:  'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'Layer' to 'const std::vector<_Ty,_Alloc> &'
+C:\Users\chety\source\repos\nn\nn\main.cpp(189,44): message :  Reason: cannot convert from 'Layer' to 'const std::vector<_Ty,_Alloc>'
+C:\Users\chety\source\repos\nn\nn\main.cpp(189,27): message :  Conversion requires a second user-defined-conversion operator or constructor
+C:\Users\chety\source\repos\nn\nn\main.cpp(191,16): error C2678:  binary '[': no operator found which takes a left-hand operand of type 'Layer' (or there is no acceptable conversion)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(1475,27): message :  could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) const'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(1465,21): message :  or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type)'
+C:\Users\chety\source\repos\nn\nn\main.cpp(191,16): message :  while trying to match the argument list '(Layer, unsigned int)'
+C:\Users\chety\source\repos\nn\nn\main.cpp(195,45): warning C4267:  'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\chety\source\repos\nn\nn\main.cpp(197,24): error C2955:  'std::vector': use of class template requires template argument list
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(339): message :  see declaration of 'std::vector'
+C:\Users\chety\source\repos\nn\nn\main.cpp(197,41): error C2440:  'initializing': cannot convert from '_Ty' to 'Layer &'
+C:\Users\chety\source\repos\nn\nn\main.cpp(197,41): error C2440:         with
+C:\Users\chety\source\repos\nn\nn\main.cpp(197,41): error C2440:         [
+C:\Users\chety\source\repos\nn\nn\main.cpp(197,41): error C2440:             _Ty=int
+C:\Users\chety\source\repos\nn\nn\main.cpp(197,41): error C2440:         ]
+C:\Users\chety\source\repos\nn\nn\main.cpp(198,22): error C2955:  'std::vector': use of class template requires template argument list
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(339): message :  see declaration of 'std::vector'
+C:\Users\chety\source\repos\nn\nn\main.cpp(198,43): error C2440:  'initializing': cannot convert from '_Ty' to 'Layer &'
+C:\Users\chety\source\repos\nn\nn\main.cpp(198,43): error C2440:         with
+C:\Users\chety\source\repos\nn\nn\main.cpp(198,43): error C2440:         [
+C:\Users\chety\source\repos\nn\nn\main.cpp(198,43): error C2440:             _Ty=int
+C:\Users\chety\source\repos\nn\nn\main.cpp(198,43): error C2440:         ]
+C:\Users\chety\source\repos\nn\nn\main.cpp(200,45): error C2662:  'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'Layer' to 'const std::vector<_Ty,_Alloc> &'
+C:\Users\chety\source\repos\nn\nn\main.cpp(200,45): message :  Reason: cannot convert from 'Layer' to 'const std::vector<_Ty,_Alloc>'
+C:\Users\chety\source\repos\nn\nn\main.cpp(200,28): message :  Conversion requires a second user-defined-conversion operator or constructor
+C:\Users\chety\source\repos\nn\nn\main.cpp(202,17): error C2678:  binary '[': no operator found which takes a left-hand operand of type 'Layer' (or there is no acceptable conversion)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(1475,27): message :  could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) const'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(1465,21): message :  or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type)'
+C:\Users\chety\source\repos\nn\nn\main.cpp(202,17): message :  while trying to match the argument list '(Layer, unsigned int)'
+C:\Users\chety\source\repos\nn\nn\main.cpp(206,45): warning C4267:  'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\chety\source\repos\nn\nn\main.cpp(208,18): error C2955:  'std::vector': use of class template requires template argument list
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(339): message :  see declaration of 'std::vector'
+C:\Users\chety\source\repos\nn\nn\main.cpp(208,35): error C2440:  'initializing': cannot convert from '_Ty' to 'Layer &'
+C:\Users\chety\source\repos\nn\nn\main.cpp(208,35): error C2440:         with
+C:\Users\chety\source\repos\nn\nn\main.cpp(208,35): error C2440:         [
+C:\Users\chety\source\repos\nn\nn\main.cpp(208,35): error C2440:             _Ty=int
+C:\Users\chety\source\repos\nn\nn\main.cpp(208,35): error C2440:         ]
+C:\Users\chety\source\repos\nn\nn\main.cpp(209,22): error C2955:  'std::vector': use of class template requires template argument list
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(339): message :  see declaration of 'std::vector'
+C:\Users\chety\source\repos\nn\nn\main.cpp(209,43): error C2440:  'initializing': cannot convert from '_Ty' to 'Layer &'
+C:\Users\chety\source\repos\nn\nn\main.cpp(209,43): error C2440:         with
+C:\Users\chety\source\repos\nn\nn\main.cpp(209,43): error C2440:         [
+C:\Users\chety\source\repos\nn\nn\main.cpp(209,43): error C2440:             _Ty=int
+C:\Users\chety\source\repos\nn\nn\main.cpp(209,43): error C2440:         ]
+C:\Users\chety\source\repos\nn\nn\main.cpp(211,39): error C2662:  'allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const': cannot convert 'this' pointer from 'Layer' to 'const std::vector<_Ty,_Alloc> &'
+C:\Users\chety\source\repos\nn\nn\main.cpp(211,39): message :  Reason: cannot convert from 'Layer' to 'const std::vector<_Ty,_Alloc>'
+C:\Users\chety\source\repos\nn\nn\main.cpp(211,28): message :  Conversion requires a second user-defined-conversion operator or constructor
+C:\Users\chety\source\repos\nn\nn\main.cpp(213,11): error C2678:  binary '[': no operator found which takes a left-hand operand of type 'Layer' (or there is no acceptable conversion)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(1475,27): message :  could be 'const _Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type) const'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(1465,21): message :  or       '_Ty &std::vector<_Ty,_Alloc>::operator [](const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type)'
+C:\Users\chety\source\repos\nn\nn\main.cpp(213,11): message :  while trying to match the argument list '(Layer, unsigned int)'
+C:\Users\chety\source\repos\nn\nn\main.cpp(229,15): error C2109:  subscript requires array or pointer type
+C:\Users\chety\source\repos\nn\nn\main.cpp(234,22): error C2955:  'std::vector': use of class template requires template argument list
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(339): message :  see declaration of 'std::vector'
+C:\Users\chety\source\repos\nn\nn\main.cpp(234,43): error C2440:  'initializing': cannot convert from '_Ty' to 'Layer &'
+C:\Users\chety\source\repos\nn\nn\main.cpp(234,43): error C2440:         with
+C:\Users\chety\source\repos\nn\nn\main.cpp(234,43): error C2440:         [
+C:\Users\chety\source\repos\nn\nn\main.cpp(234,43): error C2440:             _Ty=int
+C:\Users\chety\source\repos\nn\nn\main.cpp(234,43): error C2440:         ]
+C:\Users\chety\source\repos\nn\nn\main.cpp(237,23): error C2109:  subscript requires array or pointer type
+C:\Users\chety\source\repos\nn\nn\main.cpp(245,39): warning C4267:  'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\chety\source\repos\nn\nn\main.cpp(248): error C2641:  cannot deduce template arguments for 'std::vector'
+C:\Users\chety\source\repos\nn\nn\main.cpp(248,27): error C2783:  'std::vector<_Ty,_Alloc> std::vector(void) noexcept(<expr>)': could not deduce template argument for '_Ty'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(371): message :  see declaration of 'std::vector'
+C:\Users\chety\source\repos\nn\nn\main.cpp(248,27): error C2780:  'std::vector<_Ty,_Alloc> std::vector(const _Alloc &) noexcept': expects 1 arguments - 0 provided
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(376): message :  see declaration of 'std::vector'
+C:\Users\chety\source\repos\nn\nn\main.cpp(248,27): error C2780:  'std::vector<_Ty,_Alloc> std::vector(const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,const _Alloc &)': expects 2 arguments - 0 provided
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(398): message :  see declaration of 'std::vector'
+C:\Users\chety\source\repos\nn\nn\main.cpp(248,27): error C2780:  'std::vector<_Ty,_Alloc> std::vector(const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,const _Ty &,const _Alloc &)': expects 3 arguments - 0 provided
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(403): message :  see declaration of 'std::vector'
+C:\Users\chety\source\repos\nn\nn\main.cpp(248,27): error C2780:  'std::vector<_Ty,_Alloc> std::vector(std::_Move_allocator_tag,const allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,const _Ty &,_Any_alloc &)': expects 4 arguments - 0 provided
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(410): message :  see declaration of 'std::vector'
+C:\Users\chety\source\repos\nn\nn\main.cpp(248,27): error C2780:  'std::vector<_Ty,_Alloc> std::vector(_Iter,_Iter,const _Alloc &)': expects 3 arguments - 0 provided
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(441): message :  see declaration of 'std::vector'
+C:\Users\chety\source\repos\nn\nn\main.cpp(248,27): error C2780:  'std::vector<_Ty,_Alloc> std::vector(std::initializer_list<_Elem>,const _Alloc &)': expects 2 arguments - 0 provided
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(450): message :  see declaration of 'std::vector'
+C:\Users\chety\source\repos\nn\nn\main.cpp(248,27): error C2780:  'std::vector<_Ty,_Alloc> std::vector(const std::vector<_Ty,_Alloc> &)': expects 1 arguments - 0 provided
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(458): message :  see declaration of 'std::vector'
+C:\Users\chety\source\repos\nn\nn\main.cpp(248,27): error C2780:  'std::vector<_Ty,_Alloc> std::vector(const std::vector<_Ty,_Alloc> &,const _Alloc &)': expects 2 arguments - 0 provided
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(477): message :  see declaration of 'std::vector'
+C:\Users\chety\source\repos\nn\nn\main.cpp(248,27): error C2780:  'std::vector<_Ty,_Alloc> std::vector(std::vector<_Ty,_Alloc> &&) noexcept': expects 1 arguments - 0 provided
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(537): message :  see declaration of 'std::vector'
+C:\Users\chety\source\repos\nn\nn\main.cpp(248,27): error C2780:  'std::vector<_Ty,_Alloc> std::vector(std::vector<_Ty,_Alloc> &&,const _Alloc &) noexcept(<expr>)': expects 2 arguments - 0 provided
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\vector(543): message :  see declaration of 'std::vector'
+C:\Users\chety\source\repos\nn\nn\main.cpp(248,27): error C2512:  'std::vector': no appropriate default constructor available
+C:\Users\chety\source\repos\nn\nn\main.cpp(248,27): message :  No constructor could take the source type, or constructor overload resolution was ambiguous
